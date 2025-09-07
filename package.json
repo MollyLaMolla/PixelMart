@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-  "build": "vite build && npm run generate-404",
-  "generate-404": "node -e \"const fs=require('fs');const p='404.template.html';const out='dist/404.html';if(fs.existsSync(p)){fs.copyFileSync(p,out);}else{fs.copyFileSync('dist/index.html',out);}\"",
+    "build": "vite build && npm run generate-404",
+    "generate-404": "node -e \"const fs=require('fs');const p='404.template.html';const out='dist/404.html';if(fs.existsSync(p)){fs.copyFileSync(p,out);}else{fs.copyFileSync('dist/index.html',out);}\"",
     "lint": "eslint .",
     "preview": "vite preview"
   },

@@ -12,12 +12,17 @@
         preserva path & query in sessionStorage per permettere a React Router di
         riposizionarsi una volta caricata l'app.
       */
-      (function() {
-        var path = window.location.pathname.replace(/\/PixelMart\.Deploy\//, '/');
+      (function () {
+        var path = window.location.pathname.replace(
+          /\/PixelMart\.Deploy\//,
+          "/"
+        );
         var full = path + window.location.search + window.location.hash;
-        try { sessionStorage.setItem('__spa_redirect', full); } catch(e) {}
+        try {
+          sessionStorage.setItem("__spa_redirect", full);
+        } catch (e) {}
         // Reindirizza alla root dell'app
-        window.location.replace('/PixelMart.Deploy/');
+        window.location.replace("/PixelMart.Deploy/");
       })();
     </script>
   </head>
