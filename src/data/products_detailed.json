@@ -1,0 +1,3996 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "iPhone",
+      "name": "iPhone 16 Pro Max",
+      "shortDescription": "Top di gamma con chip A18 Pro, fotocamere professionali e display HDR avanzato.",
+      "price": 1699,
+      "currency": "EUR",
+      "colors": [
+        "Titanium Black",
+        "Titanium White",
+        "Titanium Sand",
+        "Titanium Natural"
+      ],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "6.9-inch Super Retina XDR OLED",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Materiale Schermo",
+          "description": "Ceramic Shield",
+          "type": "text"
+        },
+        {
+          "category": "build",
+          "title": "Materiale",
+          "description": "Titanium",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Frequenza di aggiornamento",
+          "description": "Adaptive 1Hz to 120Hz",
+          "type": "text"
+        },
+        {
+          "category": "connectivity",
+          "title": "5G",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Apple Intelligence",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Controllo Fotocamera laterale",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "biometrics",
+          "title": "Face ID",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "A18 Pro",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "GPU",
+          "description": 6,
+          "suffix": "core GPU",
+          "type": "number"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di archiviazione",
+          "description": ["256GB", "512GB", "1TB"],
+          "type": "array"
+        },
+        {
+          "category": "camera",
+          "title": "Fotocamera principale",
+          "description": "48MP Pro Fusion (ƒ/1.78, OIS su sensore 2ª gen)",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Ultra-grandangolo",
+          "description": "48MP Ultra‑grandangolo (ƒ/2.2, 120°)",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Teleobiettivo",
+          "description": "12MP Teleobiettivo 5x (ƒ/2.8, tetraprisma)",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Foto ad alta risoluzione",
+          "description": "24MP e 48MP",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Ritratto",
+          "description": "Controllo profondità e modifica messa a fuoco",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Macro",
+          "description": "Macro da 48MP",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Video",
+          "description": "Dolby Vision fino a 4K a 120 fps",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Video spaziali",
+          "description": "1080p a 30 fps",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Stili fotografici",
+          "description": "Stili fotografici di nuova generazione",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Intelligenza visiva",
+          "description": "Intelligenza visiva ambientale",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Zoom digitale",
+          "description": "fino a 25x",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Zoom ottico",
+          "description": "5x",
+          "type": "text"
+        },
+        {
+          "category": "features",
+          "title": "Dynamic Island",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 33,
+          "suffix": "ore di utilizzo",
+          "type": "number"
+        },
+        {
+          "category": "connectivity",
+          "title": "USB",
+          "description": "USB-C 3.2 Gen 2",
+          "type": "text"
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2025,
+          "type": "number"
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Titanium Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/61cUeqowwZL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51J+Ah55tlL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71ArVu56KEL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Titanium White",
+          "images": [
+            "https://m.media-amazon.com/images/I/61UKhGd5M6L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51+FsqN+wqL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/714ef9IP9wL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Titanium Sand",
+          "images": [
+            "https://m.media-amazon.com/images/I/61rriyfRKwL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61LR-wpxEXL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/710TkujJ64L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Titanium Natural",
+          "images": [
+            "https://m.media-amazon.com/images/I/61s1P+29yoL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/614rEQ-9pNL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/716YVtsguJL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "iPhone",
+      "name": "iPhone 16 Pro",
+      "shortDescription": "Versione compatta del Pro con lo stesso chip A18 Pro e ottime capacità fotografiche.",
+      "price": 1499,
+      "currency": "EUR",
+      "colors": [
+        "Titanium White",
+        "Titanium Black",
+        "Titanium Sand",
+        "Titanium Natural"
+      ],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "6.3-inch Super Retina XDR OLED",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Materiale Schermo",
+          "description": "Ceramic Shield",
+          "type": "text"
+        },
+        {
+          "category": "build",
+          "title": "Materiale",
+          "description": "Titanium",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Frequenza di aggiornamento",
+          "description": "Adaptive 1Hz to 120Hz",
+          "type": "text"
+        },
+        {
+          "category": "connectivity",
+          "title": "5G",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Apple Intelligence",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Controllo Fotocamera laterale",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "biometrics",
+          "title": "Face ID",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "A18 Pro",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "GPU",
+          "description": 6,
+          "suffix": "core GPU",
+          "type": "number"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di archiviazione",
+          "description": ["128GB", "256GB", "512GB", "1TB"],
+          "type": "array"
+        },
+        {
+          "category": "camera",
+          "title": "Fotocamera principale",
+          "description": "48MP Pro Fusion (ƒ/1.78, OIS su sensore 2ª gen)",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Ultra-grandangolo",
+          "description": "48MP Ultra‑grandangolo (ƒ/2.2, 120°)",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Teleobiettivo",
+          "description": "12MP Teleobiettivo 3x (ƒ/2.8)",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Foto ad alta risoluzione",
+          "description": "24MP e 48MP",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Ritratto",
+          "description": "Controllo profondità e modifica messa a fuoco",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Macro",
+          "description": "Macro da 48MP",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Video",
+          "description": "Dolby Vision fino a 4K a 120 fps",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Video spaziali",
+          "description": "1080p a 30 fps",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Stili fotografici",
+          "description": "Stili fotografici di nuova generazione",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Intelligenza visiva",
+          "description": "Intelligenza visiva ambientale",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Zoom digitale",
+          "description": "fino a 15x",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Zoom ottico",
+          "description": "3x",
+          "type": "text"
+        },
+        {
+          "category": "features",
+          "title": "Dynamic Island",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 30,
+          "suffix": "ore di utilizzo",
+          "type": "number"
+        },
+        {
+          "category": "connectivity",
+          "title": "USB",
+          "description": "USB-C 3.2 Gen 2",
+          "type": "text"
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2025,
+          "type": "number"
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Titanium Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/61cUeqowwZL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51J+Ah55tlL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71ArVu56KEL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Titanium White",
+          "images": [
+            "https://m.media-amazon.com/images/I/61UKhGd5M6L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51+FsqN+wqL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/714ef9IP9wL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Titanium Sand",
+          "images": [
+            "https://m.media-amazon.com/images/I/61rriyfRKwL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61LR-wpxEXL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/710TkujJ64L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Titanium Natural",
+          "images": [
+            "https://m.media-amazon.com/images/I/61s1P+29yoL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/614rEQ-9pNL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/716YVtsguJL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "iPhone",
+      "name": "iPhone 16",
+      "shortDescription": "Modello principale con prestazioni elevate e ottimo rapporto qualità/prezzo.",
+      "price": 999,
+      "currency": "EUR",
+      "colors": ["Azure", "White", "Overseas Blue", "Black", "Pink"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "6.1-inch Super Retina XDR OLED",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Materiale Schermo",
+          "description": "Ceramic Shield",
+          "type": "text"
+        },
+        {
+          "category": "build",
+          "title": "Materiale",
+          "description": "Alluminio",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Frequenza di aggiornamento",
+          "description": "60Hz",
+          "type": "text"
+        },
+        {
+          "category": "connectivity",
+          "title": "5G",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Apple Intelligence",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Controllo Fotocamera laterale",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "biometrics",
+          "title": "Face ID",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "A17",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "GPU",
+          "description": 5,
+          "suffix": "core GPU",
+          "type": "number"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di archiviazione",
+          "description": ["128GB", "256GB", "512GB"],
+          "type": "array"
+        },
+        {
+          "category": "camera",
+          "title": "Fotocamera principale",
+          "description": "48MP (ƒ/1.6, OIS)",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Ultra-grandangolo",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Teleobiettivo",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Foto ad alta risoluzione",
+          "description": "24MP e 48MP",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Ritratto",
+          "description": "Ritratti di nuova generazione",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Macro",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Video",
+          "description": "Dolby Vision fino a 4K a 60 fps",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Video spaziali",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Stili fotografici",
+          "description": "Stili fotografici",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Intelligenza visiva",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Zoom digitale",
+          "description": "Zoom digitale fino a 10x",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Zoom ottico",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "features",
+          "title": "Dynamic Island",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 28,
+          "suffix": "ore di utilizzo",
+          "type": "number"
+        },
+        {
+          "category": "connectivity",
+          "title": "USB",
+          "description": "USB-C 2.0",
+          "type": "text"
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2025,
+          "type": "number"
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Azure",
+          "images": [
+            "https://m.media-amazon.com/images/I/61+GLqbh-cL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51LoDYYvIGL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81FuWYXcL6L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/61+eDlSTiqL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51uLcYheKjL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81Dqg+9Q1-L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Overseas Blue",
+          "images": [
+            "https://m.media-amazon.com/images/I/712Pyq1hPfL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51hPiW4EnhL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81XYkla5h+L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/619HAuZ95QL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51uZRF26UEL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81glJVnxqQL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Pink",
+          "images": [
+            "https://m.media-amazon.com/images/I/61Ml-IP+73L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/518rCCI8drL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81UBkFHacUL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "iPhone",
+      "name": "iPhone 16 Plus",
+      "shortDescription": "Versione con schermo più grande per chi cerca maggiore autonomia e visibilità.",
+      "price": 1099,
+      "currency": "EUR",
+      "colors": ["Pink", "White", "Overseas Blue", "Black", "Azure"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "6.7-inch Super Retina XDR OLED",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Materiale Schermo",
+          "description": "Ceramic Shield",
+          "type": "text"
+        },
+        {
+          "category": "build",
+          "title": "Materiale",
+          "description": "Alluminio",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Frequenza di aggiornamento",
+          "description": "60Hz",
+          "type": "text"
+        },
+        {
+          "category": "connectivity",
+          "title": "5G",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Apple Intelligence",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Controllo Fotocamera laterale",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "biometrics",
+          "title": "Face ID",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "A17",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "GPU",
+          "description": 5,
+          "suffix": "core GPU",
+          "type": "number"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di archiviazione",
+          "description": ["128GB", "256GB", "512GB"],
+          "type": "array"
+        },
+        {
+          "category": "camera",
+          "title": "Fotocamera principale",
+          "description": "48MP (ƒ/1.6, OIS)",
+          "type": "text"
+        },
+        {
+          "category": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Foto ad alta risoluzione",
+          "description": "24MP e 48MP",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Ritratto",
+          "description": "Ritratti di nuova generazione",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Macro",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Video",
+          "description": "Dolby Vision fino a 4K a 60 fps",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Video spaziali",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Stili fotografici",
+          "description": "Stili fotografici",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Intelligenza visiva",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Zoom digitale",
+          "description": "Zoom digitale fino a 10x",
+          "type": "text"
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "features",
+          "title": "Dynamic Island",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 30,
+          "suffix": "ore di utilizzo",
+          "type": "number"
+        },
+        {
+          "category": "connectivity",
+          "title": "USB",
+          "description": "USB-C 2.0",
+          "type": "text"
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2025,
+          "type": "number"
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Pink",
+          "images": [
+            "https://m.media-amazon.com/images/I/61Ml-IP+73L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/518rCCI8drL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81UBkFHacUL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/61+eDlSTiqL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51uLcYheKjL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81Dqg+9Q1-L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Overseas Blue",
+          "images": [
+            "https://m.media-amazon.com/images/I/712Pyq1hPfL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51hPiW4EnhL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81XYkla5h+L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/619HAuZ95QL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51uZRF26UEL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81glJVnxqQL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Azure",
+          "images": [
+            "https://m.media-amazon.com/images/I/61+GLqbh-cL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51LoDYYvIGL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/81FuWYXcL6L._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "iPhone",
+      "name": "iPhone 16e",
+      "shortDescription": "Edizione economica 16e: dimensioni contenute e prezzo accessibile con buone prestazioni.",
+      "price": 749,
+      "currency": "EUR",
+      "colors": ["Black", "White"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "6.1-inch Retina HD",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Materiale Schermo",
+          "description": "Glass",
+          "type": "text"
+        },
+        {
+          "category": "build",
+          "title": "Materiale",
+          "description": "Alluminio",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Frequenza di aggiornamento",
+          "description": "60Hz",
+          "type": "text"
+        },
+        {
+          "category": "connectivity",
+          "title": "5G",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Apple Intelligence",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Controllo Fotocamera laterale",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "biometrics",
+          "title": "Face ID",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "A16 Bionic",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "GPU",
+          "description": 4,
+          "suffix": "core GPU",
+          "type": "number"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di archiviazione",
+          "description": ["64GB", "128GB", "256GB"],
+          "type": "array"
+        },
+        {
+          "category": "camera",
+          "title": "Fotocamera principale",
+          "description": "12MP (ƒ/1.6, OIS)",
+          "type": "text"
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Foto ad alta risoluzione",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Ritratto",
+          "description": "Modalità Ritratto base",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Macro",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Video",
+          "description": "4K fino a 30 fps",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Video spaziali",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Stili fotografici",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Intelligenza visiva",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Zoom digitale",
+          "description": "Zoom digitale fino a 5x",
+          "type": "text"
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "features",
+          "title": "Dynamic Island",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 24,
+          "suffix": "ore di utilizzo",
+          "type": "number"
+        },
+        {
+          "category": "connectivity",
+          "title": "USB",
+          "description": "USB-C 2.0",
+          "type": "text"
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2025,
+          "type": "number"
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/61j5RD1d9KL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71gxLy9c+sL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71vsKIM4BEL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/610vqacJO2L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61sE8T5QaWL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61bRdjxw7vL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "iPhone",
+      "name": "iPhone 15",
+      "shortDescription": "Versione economica della linea 15: ideale per chi cerca valore e compatibilità Apple.",
+      "price": 599,
+      "currency": "EUR",
+      "colors": [
+        "Light Azure",
+        "Light Yellow",
+        "Black",
+        "Light Pink",
+        "Light Green"
+      ],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "6.1-inch Super Retina HD",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Materiale Schermo",
+          "description": "Glass",
+          "type": "text"
+        },
+        {
+          "category": "build",
+          "title": "Materiale",
+          "description": "Alluminio",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Frequenza di aggiornamento",
+          "description": "60Hz",
+          "type": "text"
+        },
+        {
+          "category": "connectivity",
+          "title": "5G",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Apple Intelligence",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Controllo Fotocamera laterale",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "biometrics",
+          "title": "Face ID",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "A15 Bionic",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "GPU",
+          "description": 4,
+          "suffix": "core GPU",
+          "type": "number"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di archiviazione",
+          "description": ["64GB", "128GB"],
+          "type": ["array"]
+        },
+        {
+          "category": "camera",
+          "title": "Fotocamera principale",
+          "description": "12MP (ƒ/1.6, OIS)",
+          "_type_": ["text"]
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Foto ad alta risoluzione",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Ritratto",
+          "description": "Modalità Ritratto base",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Macro",
+          "description": null,
+          "type": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Video",
+          "description": "4K fino a 30 fps",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Video spaziali",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Stili fotografici",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Intelligenza visiva",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Zoom digitale",
+          "description": "Zoom digitale fino a 5x",
+          "_type_": ["text"]
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "features",
+          "title": "Dynamic Island",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 22,
+          "suffix": "ore di utilizzo",
+          "type": "number"
+        },
+        {
+          "category": "connectivity",
+          "title": "USB",
+          "description": "USB-C 2.0",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2024,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Light Azure",
+          "images": [
+            "https://m.media-amazon.com/images/I/71vKy5OHuPL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51ShtUeRGhL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Light Yellow",
+          "images": [
+            "https://m.media-amazon.com/images/I/716wjBy-EvL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51X0uhhOooL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/61eEYLATF9L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51U60UKjYlL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Light Pink",
+          "images": [
+            "https://m.media-amazon.com/images/I/71CW36JRavL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51OQ8bPGdkL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Light Green",
+          "images": [
+            "https://m.media-amazon.com/images/I/71oGc0hDt7L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51QG7BEoc+L._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "iPhone",
+      "name": "iPhone 15 Plus",
+      "shortDescription": "Modello della serie 15 con ottime prestazioni e camera avanzata.",
+      "price": 899,
+      "currency": "EUR",
+      "colors": [
+        "Light Yellow",
+        "Light Azure",
+        "Black",
+        "Light Pink",
+        "Light Green"
+      ],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "6.1-inch Super Retina XDR OLED",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Materiale Schermo",
+          "description": "Ceramic Shield",
+          "type": "text"
+        },
+        {
+          "category": "build",
+          "title": "Materiale",
+          "description": "Alluminio",
+          "type": "text"
+        },
+        {
+          "category": "display",
+          "title": "Frequenza di aggiornamento",
+          "description": "60Hz",
+          "type": "text"
+        },
+        {
+          "category": "connectivity",
+          "title": "5G",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Apple Intelligence",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "features",
+          "title": "Controllo Fotocamera laterale",
+          "description": false,
+          "type": "boolean"
+        },
+        {
+          "category": "biometrics",
+          "title": "Face ID",
+          "description": true,
+          "type": "boolean"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "A16 Bionic",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "GPU",
+          "description": 5,
+          "suffix": "core GPU",
+          "type": "number"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di archiviazione",
+          "description": ["128GB", "256GB", "512GB"],
+          "_type_": ["array"]
+        },
+        {
+          "category": "camera",
+          "title": "Fotocamera principale",
+          "description": "48MP (ƒ/1.6, OIS)",
+          "_type_": ["text"]
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Foto ad alta risoluzione",
+          "description": "24MP e 48MP",
+          "_type_": ["text"]
+        },
+        {
+          "category": "camera",
+          "title": "Ritratto",
+          "description": "Ritratti di nuova generazione",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Macro",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Video",
+          "description": "Dolby Vision fino a 4K a 60 fps",
+          "_type_": ["text"]
+        },
+        {
+          "category": "camera",
+          "title": "Video spaziali",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Stili fotografici",
+          "description": "Stili fotografici",
+          "_type_": ["text"]
+        },
+        {
+          "category": "camera",
+          "title": "Intelligenza visiva",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "camera",
+          "title": "Zoom digitale",
+          "description": "Zoom digitale fino a 10x",
+          "_type_": ["text"]
+        },
+        {
+          "_category_": "",
+          "_title_": "",
+          "_description_": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "features",
+          "title": "Dynamic Island",
+          "description": true,
+          "_type_": ["boolean"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 26,
+          "suffix": "ore di utilizzo",
+          "_type_": ["number"]
+        },
+        {
+          "category": "connectivity",
+          "title": "USB",
+          "description": "USB-C 2.0",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2023,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Light Yellow",
+          "images": [
+            "https://m.media-amazon.com/images/I/716wjBy-EvL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51X0uhhOooL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Light Azure",
+          "images": [
+            "https://m.media-amazon.com/images/I/71vKy5OHuPL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51ShtUeRGhL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/61eEYLATF9L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51U60UKjYlL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Light Pink",
+          "images": [
+            "https://m.media-amazon.com/images/I/71CW36JRavL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51OQ8bPGdkL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Light Green",
+          "images": [
+            "https://m.media-amazon.com/images/I/71oGc0hDt7L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51QG7BEoc+L._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Mac",
+      "name": "MacBook Air 15",
+      "shortDescription": "Portatile sottile e leggero con chip Apple M2, display Liquid Retina da 15,3\" e fino a 18 ore di autonomia.",
+      "price": 1699,
+      "currency": "EUR",
+      "colors": ["Silver", "Galaxy", "Grey", "Midnight"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "15.3-inch Liquid Retina (2880×1864) retroilluminato LED con tecnologia IPS, 500 nit, P3, True Tone",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "Apple M2 con CPU 8‑core (4 performance, 4 efficiency), GPU 10‑core, Neural Engine 16‑core",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "Media Engine",
+          "description": "Accelerazione hardware H.264, HEVC, ProRes e ProRes RAW",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["8GB", "16GB", "24GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["256GB", "512GB", "1TB", "2TB"],
+          "type": "array"
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 18,
+          "suffix": "ore di riproduzione video Apple TV o 15 ore di navigazione web wireless",
+          "type": "number"
+        },
+        {
+          "category": "battery",
+          "title": "Capacità Batteria",
+          "description": "66,5 Wh ai polimeri di litio",
+          "_type_": ["text"]
+        },
+        {
+          "category": "battery",
+          "title": "Ricarica",
+          "description": "MagSafe 3, alimentatore USB‑C 35W (doppia porta) incluso, ricarica rapida con alimentatore 70W",
+          "_type_": ["text"]
+        },
+        {
+          "category": "camera",
+          "title": "Camera",
+          "description": "FaceTime HD 1080p con ISP evoluto",
+          "_type_": ["text"]
+        },
+        {
+          "category": "audio",
+          "title": "Audio",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Sistema Audio",
+          "description": "Sistema a sei altoparlanti con woofer force‑cancelling, audio spaziale, tre microfoni in array",
+          "_type_": ["text"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Wireless",
+          "description": "Wi‑Fi 6 (802.11ax), Bluetooth 5.3",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "description": [
+            "MagSafe 3",
+            "2x Thunderbolt / USB 4 (fino a 40 Gbps)",
+            "Jack cuffie 3,5 mm con supporto alta impedenza"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "keyboard",
+          "title": "Tastiera",
+          "description": "Magic Keyboard retroilluminata con Touch ID",
+          "_type_": ["text"]
+        },
+        {
+          "category": "trackpad",
+          "title": "Trackpad",
+          "description": "Force Touch con supporto gesti Multi‑Touch",
+          "_type_": ["text"]
+        },
+        {
+          "category": "videoSupport",
+          "title": "Supporto Video",
+          "description": "Supporta un monitor esterno fino a 6K a 60Hz",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "34,04 × 23,76 × 1,15 cm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "1,51 kg",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2023,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/71h-tsPzk5L._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/61l59adGwXL._AC_SX466_.jpg"
+          ]
+        },
+        {
+          "color": "Galaxy",
+          "images": [
+            "https://m.media-amazon.com/images/I/71NPEI1B9wL._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/61D6SCvRvrL._AC_SX466_.jpg"
+          ]
+        },
+        {
+          "color": "Grey",
+          "images": [
+            "https://m.media-amazon.com/images/I/71zbUS9KpQL._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/61F-1A-tT0L._AC_SX466_.jpg"
+          ]
+        },
+        {
+          "color": "Midnight",
+          "images": [
+            "https://m.media-amazon.com/images/I/71O14N5GYLL._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/61Sz53tblzL._AC_SX466_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Mac",
+      "name": "MacBook Pro 16",
+      "shortDescription": "Laptop professionale con CPU/GPU potenziate e display XDR per creativi.",
+      "price": 3399,
+      "currency": "EUR",
+      "colors": ["Silver", "Black"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "16.2-inch Liquid Retina XDR (3456×2234), 1000 nit costanti, 1600 nit picco HDR, ProMotion fino a 120Hz, True Tone",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "Apple M2 Pro (CPU 12-core, GPU 19-core) o M2 Max (CPU 12-core, GPU fino a 38-core)",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "Media Engine",
+          "description": "Accelerazione hardware H.264, HEVC, ProRes e ProRes RAW",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["16GB", "32GB", "64GB", "96GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["512GB", "1TB", "2TB", "4TB", "8TB"],
+          "type": "array"
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": 22,
+          "suffix": "ore di riproduzione video Apple TV",
+          "_type_": ["number"]
+        },
+        {
+          "category": "battery",
+          "title": "Capacità Batteria",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "battery",
+          "title": "Ricarica",
+          "description": "MagSafe 3, alimentatore USB‑C 140W incluso, ricarica rapida",
+          "_type_": ["text"]
+        },
+        {
+          "category": "camera",
+          "title": "Camera",
+          "_description_": null
+        },
+        {
+          "category": "camera",
+          "title": "FaceTime HD 1080p con ISP evoluto",
+          "_type_": ["text"]
+        },
+        {
+          "category": "audio",
+          "_title_": "",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Sistema Audio",
+          "description": "Sistema a sei altoparlanti con woofer force‑cancelling, audio spaziale, tre microfoni in array",
+          "_type_": ["text"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Wireless",
+          "description": "Wi‑Fi 6E, Bluetooth 5.3",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "description": [
+            "MagSafe 3",
+            "3x Thunderbolt 4 (USB‑C)",
+            "HDMI",
+            "Slot SDXC",
+            "Jack cuffie 3,5 mm"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "keyboard",
+          "title": "Tastiera",
+          "description": "Magic Keyboard retroilluminata con Touch ID",
+          "_type_": ["text"]
+        },
+        {
+          "category": "trackpad",
+          "title": "Trackpad",
+          "description": "Force Touch con supporto gesti Multi‑Touch",
+          "_type_": ["text"]
+        },
+        {
+          "category": "videoSupport",
+          "title": "Supporto Video",
+          "description": "Fino a 4 monitor esterni (M2 Pro) o 8 monitor esterni (M2 Max)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "35,57 × 24,81 × 1,68 cm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "2,15 kg",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2024,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/61F42+I6LgL._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/61JKZisT8QL._AC_SX466_.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/61j26WkzavL._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/61LYZuPm94L._AC_SX466_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Mac",
+      "name": "iMac 24",
+      "shortDescription": "Desktop all-in-one con ottimo display e prestazioni per uso creativo e ufficio.",
+      "price": 1899,
+      "currency": "EUR",
+      "colors": ["Silver", "Acquamarine", "Pink", "Green"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "24-inch Retina 4.5K (4480×2520), 500 nit, P3, True Tone",
+          "type": "text"
+        },
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "Apple M3 (CPU 8-core, GPU 8-core o 10-core)",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["8GB", "16GB", "24GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["256GB", "512GB", "1TB", "2TB"],
+          "type": "array"
+        },
+        {
+          "category": "camera",
+          "title": "Camera",
+          "_description_": null
+        },
+        {
+          "category": "camera",
+          "title": "FaceTime HD 1080p",
+          "_type_": ["text"]
+        },
+        {
+          "category": "audio",
+          "_title_": "",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Sistema Audio",
+          "description": "6 altoparlanti hi‑fi con woofer force‑cancelling, audio spaziale, 3 microfoni in array",
+          "_type_": ["text"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Wireless",
+          "description": "Wi‑Fi 6E, Bluetooth 5.3",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "description": [
+            "2x Thunderbolt / USB 4",
+            "Jack cuffie 3,5 mm",
+            "Gigabit Ethernet (opzionale su GPU 8-core, incluso su GPU 10-core)",
+            "2x USB 3 (solo GPU 10-core)"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "videoSupport",
+          "title": "Supporto Video",
+          "description": null
+        },
+        {
+          "category": "videoSupport",
+          "title": "1 monitor esterno fino a 6K a 60Hz",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "54,7 × 46,1 × 14,7 cm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "4,43–4,48 kg",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2024,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/61-eNjLz5OL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51d-gY5KVUL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Acquamarine",
+          "images": [
+            "https://m.media-amazon.com/images/I/71BD2Go1JkL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51PYsMoGe0L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Pink",
+          "images": [
+            "https://m.media-amazon.com/images/I/71wj438VBZL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51Ol+p6yXBL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Green",
+          "images": [
+            "https://m.media-amazon.com/images/I/71o+58kNCiL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51WWvWFlS2L._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Mac",
+      "name": "Mac mini",
+      "shortDescription": "Desktop compatto con chip Apple per utenti che preferiscono una soluzione modulare.",
+      "price": 699,
+      "currency": "EUR",
+      "colors": ["Silver"],
+      "specs": [
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "Apple M2 (CPU 8-core, GPU 10-core) o M3 (CPU 8-core, GPU 10-core)",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["8GB", "16GB", "24GB", "32GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["256GB", "512GB", "1TB", "2TB", "4TB", "8TB"],
+          "type": "array"
+        },
+        {
+          "category": "audio",
+          "title": "Audio",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Altoparlante integrato, jack cuffie 3,5 mm alta impedenza",
+          "_type_": ["text"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Wireless",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Wi‑Fi 6E, Bluetooth 5.3",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "ports",
+          "title": [
+            "2x Thunderbolt 4 (M2/M3) o 4x Thunderbolt 4 (M2 Pro)",
+            "2x USB‑A",
+            "HDMI",
+            "Gigabit Ethernet (opzionale 10Gb)",
+            "Jack cuffie 3,5 mm"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "videoSupport",
+          "title": "Supporto Video",
+          "_description_": null
+        },
+        {
+          "category": "videoSupport",
+          "title": ["Fino a 2 monitor (M2/M3) o 3 monitor (M2 Pro)"],
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "19,7 × 19,7 × 3,58 cm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "1,18–1,28 kg",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2023,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/61SK7v-0XzL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Mac",
+      "name": "Mac Studio",
+      "shortDescription": "Workstation compatta con potenza elevata per produzione video e 3D.",
+      "price": 2499,
+      "currency": "EUR",
+      "colors": ["Silver"],
+      "specs": [
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "Apple M2 Max (CPU 12-core, GPU fino a 38-core) o M2 Ultra (CPU 24-core, GPU fino a 76-core)",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["32GB", "64GB", "96GB", "128GB", "192GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["1TB", "2TB", "4TB", "8TB"],
+          "type": "array"
+        },
+        {
+          "category": "audio",
+          "title": "Audio",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Altoparlante integrato, jack cuffie 3,5 mm alta impedenza",
+          "_type_": ["text"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Wireless",
+          "description": null,
+          "_type_": ["null"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Wi‑Fi 6E, Bluetooth 5.3",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "_description_": null
+        },
+        {
+          "category": "ports",
+          "title": [
+            "4x Thunderbolt 4",
+            "2x USB‑A",
+            "HDMI",
+            "10Gb Ethernet",
+            "Jack cuffie 3,5 mm alta impedenza",
+            "2x USB‑C frontali (M2 Max) o 2x Thunderbolt 4 frontali (M2 Ultra)",
+            "Slot SDXC"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "videoSupport",
+          "title": "Supporto Video",
+          "_description_": null
+        },
+        {
+          "category": "videoSupport",
+          "title": ["Fino a 8 monitor (M2 Ultra)"],
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "19,7 × 19,7 × 9,5 cm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "2,7–3,6 kg",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2023,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/417fA2VjplL._AC_SX522_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Mac",
+      "name": "Studio Display",
+      "shortDescription": "Monitor 5K con ottima resa colore pensato per i creativi.",
+      "price": 1799,
+      "currency": "EUR",
+      "colors": ["Silver"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "27-inch Retina 5K (5120×2880), 600 nit, P3, True Tone",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Camera",
+          "description": "12MP ultra‑grandangolo con Center Stage",
+          "type": "text"
+        },
+        {
+          "category": "audio",
+          "title": "Audio",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "6 altoparlanti hi‑fi con woofer force‑cancelling, audio spaziale, 3 microfoni in array",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "description": ["1x Thunderbolt 3 (96W ricarica host)", "3x USB‑C"],
+          "_type_": ["array"]
+        },
+        {
+          "category": "standOptions",
+          "title": "Opzioni Stand",
+          "description": [
+            "Inclinazione regolabile",
+            "Inclinazione e altezza regolabili",
+            "Adattatore VESA"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "62,3 × 47,8 × 16,8 cm (stand base)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "6,3–7,7 kg",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2022,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/715IjfY5t6L._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Mac",
+      "name": "Mac Pro",
+      "shortDescription": "Tower modulare ad alte prestazioni per ambienti professionali.",
+      "price": 6999,
+      "currency": "EUR",
+      "colors": ["Silver"],
+      "specs": [
+        {
+          "category": "processor",
+          "title": "Chip",
+          "description": "Apple M2 Ultra (CPU 24-core, GPU fino a 76-core, Neural Engine 32-core)",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["64GB", "128GB", "192GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["1TB", "2TB", "4TB", "8TB"],
+          "type": "array"
+        },
+        {
+          "category": "expandability",
+          "title": "Espandibilità",
+          "description": "6 slot PCIe Gen 4 a tutta lunghezza + 1 slot PCIe Gen 3 a mezza lunghezza",
+          "_type_": ["text"]
+        },
+        {
+          "category": "mediaEngine",
+          "title": "Media Engine",
+          "description": "Accelerazione hardware H.264, HEVC, ProRes e ProRes RAW",
+          "_type_": ["text"]
+        },
+        {
+          "category": "videoSupport",
+          "title": "Supporto Video",
+          "_description_": null
+        },
+        {
+          "category": "videoSupport",
+          "title": [
+            "Fino a 8 monitor 4K a 60Hz, 6 monitor 6K a 60Hz o 3 monitor 8K a 60Hz"
+          ],
+          "_type_": ["text"]
+        },
+        {
+          "category": "audio",
+          "_title_": "",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Altoparlante integrato, jack cuffie 3,5 mm alta impedenza, HDMI con audio multicanale",
+          "_type_": ["text"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Wireless",
+          "_description_": null
+        },
+        {
+          "category": "connectivity",
+          "title": "Wi‑Fi 6E, Bluetooth 5.3",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "_description_": null
+        },
+        {
+          "category": "ports",
+          "title": [
+            "8x Thunderbolt 4 (USB‑C)",
+            "3x USB‑A",
+            "2x HDMI",
+            "2x 10Gb Ethernet",
+            "Jack cuffie 3,5 mm"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "52,9 × 21,8 × 45,0 cm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "16,86 kg",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2023,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Silver",
+          "images": [
+            "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/118461_mac-pro.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Mac",
+      "name": "Pro Display XDR",
+      "shortDescription": "Display professionale reference‑grade con ampia gamma dinamica.",
+      "price": 4999,
+      "currency": "EUR",
+      "colors": ["Silver"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "32-inch Retina 6K (6016×3384), 1000 nit costanti, 1600 nit picco HDR, P3, True Tone",
+          "type": "text"
+        },
+        {
+          "category": "camera",
+          "title": "Camera",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Audio",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "6 altoparlanti hi‑fi con woofer force‑cancelling, audio spaziale, 3 microfoni in array",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "_description_": null
+        },
+        {
+          "category": "ports",
+          "title": ["1x Thunderbolt 3 (96W ricarica host)", "3x USB‑C"],
+          "_type_": ["array"]
+        },
+        {
+          "category": "standOptions",
+          "title": "Opzioni Stand",
+          "description": ["Pro Stand", "Adattatore VESA 100×100 mm"],
+          "_type_": ["array"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "71,8 × 41,2 × 2,7 cm (senza stand)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "7,48 kg (senza stand)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "general",
+          "title": "Anno di rilascio",
+          "description": 2019,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/71pEQi2sX3L._AC_SX522_.jpg",
+            "https://m.media-amazon.com/images/I/81bXhzq2zqL._AC_SX522_.jpg",
+            "https://m.media-amazon.com/images/I/61A5xDVn0pL._AC_SX522_.jpg",
+            "https://m.media-amazon.com/images/I/81oEIytsw8L._AC_SX522_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "iPad",
+      "name": "iPad Pro 13",
+      "shortDescription": "iPad Pro con display Ultra Retina XDR OLED da 13\" per creativi e professionisti.",
+      "price": 1199,
+      "currency": "EUR",
+      "colors": ["Black", "Silver"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "13-inch Ultra Retina XDR OLED tandem (2752×2064), 264 ppi, ProMotion 10–120Hz, True Tone, P3, rivestimento antiriflesso, luminosità SDR 1000 nit, picco HDR 1600 nit, contrasto 2.000.000:1",
+          "type": "text"
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "Apple M4 — Modelli 256GB/512GB: CPU 9-core (3 performance, 6 efficiency), GPU 10-core; Modelli 1TB/2TB: CPU 10-core (4 performance, 6 efficiency), GPU 10-core; Neural Engine 16-core",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["8GB", "16GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["256GB", "512GB", "1TB", "2TB"],
+          "type": "array"
+        },
+        {
+          "category": "cameraRear",
+          "title": "Fotocamera Posteriore",
+          "_description_": null
+        },
+        {
+          "category": "cameraRear",
+          "title": "12MP grandangolo ƒ/1.8 con PDAF + scanner LiDAR; flash True Tone quad‑LED",
+          "_type_": ["text"]
+        },
+        {
+          "category": "cameraFront",
+          "title": "Fotocamera Frontale",
+          "_description_": null
+        },
+        {
+          "category": "cameraFront",
+          "title": "12MP ultra‑grandangolo ƒ/2.4, 122° con Center Stage",
+          "_type_": ["text"]
+        },
+        {
+          "category": "video",
+          "title": "Video",
+          "_description_": null
+        },
+        {
+          "category": "video",
+          "title": "4K fino a 60 fps, 1080p fino a 240 fps, ProRes, modalità Cinema",
+          "_type_": ["text"]
+        },
+        {
+          "category": "audio",
+          "_title_": "",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Sistema a quattro altoparlanti",
+          "_type_": ["text"]
+        },
+        {
+          "category": "wireless",
+          "title": "Wireless",
+          "description": "Wi‑Fi 6E, Bluetooth 5.3, 5G (modello Cellular)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "_description_": null
+        },
+        {
+          "category": "ports",
+          "title": [
+            "Thunderbolt / USB 4 (USB‑C)",
+            "Smart Connector",
+            "Connettore magnetico Apple Pencil"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "applePencil",
+          "title": "Apple Pencil",
+          "description": "Compatibile con Apple Pencil Pro e Apple Pencil (USB‑C)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "281,6 × 215,5 × 5,1 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "579 g (Wi‑Fi), 582 g (Wi‑Fi + Cellular)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "_description_": null
+        },
+        {
+          "category": "battery",
+          "title": "Fino a 10 ore di navigazione web su Wi‑Fi",
+          "_type_": ["text"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2024,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/71WyMBEqYtL._AC_SX522_.jpg"
+          ]
+        },
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/715p8tzzCnL._AC_SX522_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "iPad",
+      "name": "iPad Air 13",
+      "shortDescription": "iPad Air con chip M2, ampio display Liquid Retina da 13\" e supporto Apple Pencil Pro.",
+      "price": 849,
+      "currency": "EUR",
+      "colors": ["Azure", "Galaxy", "Space Gray", "Purple"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "13-inch Liquid Retina IPS LCD (2732×2048), 264 ppi, True Tone, P3, 600 nit, rivestimento antiriflesso",
+          "type": "text"
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "Apple M2 (CPU 8-core, GPU 10-core, Neural Engine 16-core)",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["8GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["128GB", "256GB", "512GB", "1TB"],
+          "type": "array"
+        },
+        {
+          "category": "cameraRear",
+          "title": "Fotocamera Posteriore",
+          "_description_": null
+        },
+        {
+          "category": "cameraRear",
+          "title": "12MP grandangolo ƒ/1.8, Smart HDR 4, video 4K fino a 60 fps",
+          "_type_": ["text"]
+        },
+        {
+          "category": "cameraFront",
+          "title": "Fotocamera Frontale",
+          "_description_": null
+        },
+        {
+          "category": "cameraFront",
+          "title": "12MP ultra‑grandangolo ƒ/2.4 con Center Stage, video 1080p fino a 60 fps",
+          "_type_": ["text"]
+        },
+        {
+          "category": "audio",
+          "_title_": "",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Altoparlanti stereo in orizzontale",
+          "_type_": ["text"]
+        },
+        {
+          "category": "wireless",
+          "title": "Wireless",
+          "description": "Wi‑Fi 6E, Bluetooth 5.3, 5G (modello Cellular)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "_description_": null
+        },
+        {
+          "category": "ports",
+          "title": [
+            "USB‑C (USB 3.1 Gen 2)",
+            "Smart Connector",
+            "Connettore magnetico Apple Pencil"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "applePencil",
+          "title": "Apple Pencil",
+          "description": "Compatibile con Apple Pencil Pro e Apple Pencil (USB‑C)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "280,6 × 214,9 × 6,1 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "617 g (Wi‑Fi), 618 g (Wi‑Fi + Cellular)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "_description_": null
+        },
+        {
+          "category": "battery",
+          "title": "Fino a 10 ore di navigazione web su Wi‑Fi",
+          "_type_": ["text"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2024,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Azure",
+          "images": [
+            "https://m.media-amazon.com/images/I/710sg2diFBL._AC_SX522_.jpg",
+            "https://m.media-amazon.com/images/I/71T2sWy9+TL._AC_SX522_.jpg"
+          ]
+        },
+        {
+          "color": "Galaxy",
+          "images": [
+            "https://m.media-amazon.com/images/I/71CIr3SVE1L._AC_SX522_.jpg",
+            "https://m.media-amazon.com/images/I/71WkxSrEH8L._AC_SX522_.jpg"
+          ]
+        },
+        {
+          "color": "Space Gray",
+          "images": [
+            "https://m.media-amazon.com/images/I/71RIoxMythL._AC_SX522_.jpg",
+            "https://m.media-amazon.com/images/I/71DIRQbK+JL._AC_SX522_.jpg"
+          ]
+        },
+        {
+          "color": "Purple",
+          "images": [
+            "https://m.media-amazon.com/images/I/71q4QkNIIML._AC_SX522_.jpg",
+            "https://m.media-amazon.com/images/I/716lJqngy1L._AC_SX522_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "iPad",
+      "name": "iPad (A16, 2025)",
+      "shortDescription": "iPad base con chip A14 Bionic, display Liquid Retina e fotocamera frontale orizzontale.",
+      "price": 449,
+      "currency": "EUR",
+      "colors": ["Crimson", "Silver", "Yellow", "Blue"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "10.9-inch Liquid Retina IPS LCD (2360×1640), 264 ppi, True Tone, 500 nit",
+          "type": "text"
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "Apple A14 Bionic (CPU 6-core, GPU 4-core, Neural Engine 16-core)",
+          "type": "text"
+        },
+        {
+          "category": "memory",
+          "title": "Opzioni di memoria",
+          "description": ["4GB"],
+          "type": "array"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["64GB", "256GB"],
+          "type": "array"
+        },
+        {
+          "category": "cameraRear",
+          "title": "Fotocamera Posteriore",
+          "_description_": null
+        },
+        {
+          "category": "cameraRear",
+          "title": "12MP grandangolo ƒ/1.8, Smart HDR 3, video 4K fino a 60 fps",
+          "_type_": ["text"]
+        },
+        {
+          "category": "cameraFront",
+          "title": "Fotocamera Frontale",
+          "_description_": null
+        },
+        {
+          "category": "cameraFront",
+          "title": "12MP ultra‑grandangolo ƒ/2.4 con Center Stage, video 1080p fino a 60 fps",
+          "_type_": ["text"]
+        },
+        {
+          "category": "audio",
+          "_title_": "",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Altoparlanti stereo in orizzontale",
+          "_type_": ["text"]
+        },
+        {
+          "category": "wireless",
+          "title": "Wireless",
+          "description": "Wi‑Fi 6, Bluetooth 5.2, 5G (modello Cellular)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "ports",
+          "title": "Porte",
+          "_description_": null
+        },
+        {
+          "category": "ports",
+          "title": ["USB‑C (USB 2.0)", "Smart Connector"],
+          "_type_": ["array"]
+        },
+        {
+          "category": "applePencil",
+          "title": "Apple Pencil",
+          "description": "Compatibile con Apple Pencil (USB‑C) e Apple Pencil (1ª gen con adattatore)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "248,6 × 179,5 × 7 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "477 g (Wi‑Fi), 481 g (Wi‑Fi + Cellular)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "_description_": null
+        },
+        {
+          "category": "battery",
+          "title": "Fino a 10 ore di navigazione web su Wi‑Fi",
+          "_type_": ["text"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2024,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Crimson",
+          "images": [
+            "https://m.media-amazon.com/images/I/61xD2n6ttEL._AC_SX522_.jpg"
+          ]
+        },
+        {
+          "color": "Silver",
+          "images": [
+            "https://m.media-amazon.com/images/I/616FFqht2sL._AC_SX522_.jpg"
+          ]
+        },
+        {
+          "color": "Yellow",
+          "images": [
+            "https://m.media-amazon.com/images/I/61opXmF-vsL._AC_SX522_.jpg"
+          ]
+        },
+        {
+          "color": "Blue",
+          "images": [
+            "https://m.media-amazon.com/images/I/616z23YvqML._AC_SX522_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Apple Watch",
+      "name": "Apple Watch Series 10",
+      "shortDescription": "Ultima serie con sensori avanzati per la salute e performance migliorate.",
+      "price": 459,
+      "currency": "EUR",
+      "colors": ["Denim", "White", "ink", "Black", "Plum", "Blush Pink"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "Always-On Retina LTPO OLED edge‑to‑edge, fino a 2000 nit, vetro Ion‑X (alluminio) o cristallo di zaffiro (acciaio/titanio)",
+          "type": "text"
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "S10 SiP dual‑core a 64 bit con Neural Engine 4‑core",
+          "type": "text"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["64GB"],
+          "type": "array"
+        },
+        {
+          "category": "connectivity",
+          "title": "Connettività",
+          "_description_": null
+        },
+        {
+          "category": "connectivity",
+          "title": [
+            "GPS",
+            "Cellular (opzionale)",
+            "Wi‑Fi 4",
+            "Bluetooth 5.3",
+            "NFC",
+            "UWB di seconda generazione"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "sensors",
+          "title": "Sensori",
+          "_description_": null
+        },
+        {
+          "category": "sensors",
+          "title": [
+            "Cardiofrequenzimetro elettrico",
+            "Cardiofrequenzimetro ottico 3ª gen",
+            "Sensore temperatura",
+            "Bussola",
+            "Altimetro sempre attivo",
+            "Accelerometro high‑g",
+            "Giroscopio ad alta gamma dinamica",
+            "Sensore luce ambientale"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "healthFeatures",
+          "title": "Funzionalità Salute",
+          "_description_": null
+        },
+        {
+          "category": "healthFeatures",
+          "title": [
+            "ECG",
+            "Monitoraggio ciclo",
+            "Notifiche frequenza cardiaca",
+            "Rilevamento cadute",
+            "Rilevamento incidenti",
+            "Monitoraggio sonno"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": "Fino a 18 ore (36 ore in modalità risparmio energetico)",
+          "type": "text"
+        },
+        {
+          "category": "charging",
+          "title": "Ricarica",
+          "description": "Ricarica rapida fino all’80% in circa 30 minuti",
+          "type": "text"
+        },
+        {
+          "category": "waterResistance",
+          "title": "Resistenza all'acqua",
+          "description": "Fino a 50 m (swimproof), IP6X",
+          "type": "text"
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "46 mm o 42 mm, spessore 9,7 mm",
+          "type": "text"
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "30–42 g a seconda del materiale",
+          "type": "text"
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2025,
+          "type": "number"
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Denim",
+          "images": [
+            "https://m.media-amazon.com/images/I/61rF4v3KLML._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61WgNybag6L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/81JCJp7BMeL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/714Rwt26yoL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "ink",
+          "images": [
+            "https://m.media-amazon.com/images/I/81GaDUnhBiL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71Fju4qCn5L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/61d57c-mBfL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61KPDQ3uK5L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Plum",
+          "images": [
+            "https://m.media-amazon.com/images/I/814rZvIw6gL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71bPT6hsaQL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Blush Pink",
+          "images": [
+            "https://m.media-amazon.com/images/I/61qD+T7+oqL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61aXYgmDTeL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Apple Watch",
+      "name": "Apple Watch Ultra 2",
+      "shortDescription": "Versione robusta per attività outdoor con batteria estesa.",
+      "price": 799,
+      "currency": "EUR",
+      "colors": ["Gold", "Blue", "Black", "Blue Navy"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "49 mm Always-On Retina LTPO OLED piatto in cristallo di zaffiro, fino a 3000 nit",
+          "type": "text"
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "S9 SiP dual‑core a 64 bit con Neural Engine 4‑core",
+          "type": "text"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["64GB"],
+          "type": "array"
+        },
+        {
+          "category": "connectivity",
+          "title": "Connettività",
+          "_description_": null
+        },
+        {
+          "category": "connectivity",
+          "title": [
+            "GPS doppia frequenza L1+L5",
+            "Cellular",
+            "Wi‑Fi 4",
+            "Bluetooth 5.3",
+            "NFC",
+            "UWB di seconda generazione"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "sensors",
+          "title": "Sensori",
+          "_description_": null
+        },
+        {
+          "category": "sensors",
+          "title": [
+            "Cardiofrequenzimetro elettrico",
+            "Cardiofrequenzimetro ottico 3ª gen",
+            "Sensore temperatura",
+            "Profondimetro (±1 m)",
+            "Sensore temperatura acqua",
+            "Bussola",
+            "Altimetro sempre attivo",
+            "Accelerometro high‑g",
+            "Giroscopio ad alta gamma dinamica",
+            "Sensore luce ambientale"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "healthFeatures",
+          "title": "Funzionalità Salute",
+          "_description_": null
+        },
+        {
+          "category": "healthFeatures",
+          "title": [
+            "ECG",
+            "Monitoraggio ciclo",
+            "Notifiche frequenza cardiaca",
+            "Rilevamento cadute",
+            "Rilevamento incidenti",
+            "Monitoraggio sonno"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": "Fino a 36 ore (72 ore in modalità risparmio energetico)",
+          "type": "text"
+        },
+        {
+          "category": "charging",
+          "title": "Ricarica",
+          "description": "Ricarica rapida fino all’80% in circa 1 ora",
+          "type": "text"
+        },
+        {
+          "category": "waterResistance",
+          "title": "Resistenza all'acqua",
+          "description": "Fino a 100 m, adatto a immersioni fino a 40 m (EN13319), IP6X, certificazione MIL‑STD 810H",
+          "type": "text"
+        },
+        {
+          "category": "audio",
+          "_title_": "",
+          "_description_": null
+        },
+        {
+          "category": "audio",
+          "title": "Doppio altoparlante, sirena 86 dB, 3 microfoni in array",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "49 × 44 × 14,4 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "61,4 g",
+          "_type_": ["text"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2023,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Gold",
+          "images": [
+            "https://m.media-amazon.com/images/I/810lejLF0WL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71nLQoa1ceL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Blue",
+          "images": [
+            "https://m.media-amazon.com/images/I/71jFNe2NPfL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71d8N2mZblL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/71OZZoIOTgL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71JbXDrDtbL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Blue Navy",
+          "images": [
+            "https://m.media-amazon.com/images/I/71aP3bAQ9zL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71qM2hzILpL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Apple Watch",
+      "name": "Apple Watch SE",
+      "shortDescription": "Opzione più economica che mantiene le funzionalità principali per fitness e notifiche.",
+      "price": 249,
+      "currency": "EUR",
+      "colors": ["White", "Galaxy", "Denim", "Black"],
+      "specs": [
+        {
+          "category": "display",
+          "title": "Display",
+          "description": "Retina LTPO OLED fino a 1000 nit, vetro Ion‑X",
+          "type": "text"
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "S8 SiP dual‑core a 64 bit con Neural Engine 2‑core",
+          "type": "text"
+        },
+        {
+          "category": "storage",
+          "title": "Opzioni di archiviazione",
+          "description": ["32GB"],
+          "type": "array"
+        },
+        {
+          "category": "connectivity",
+          "title": "Connettività",
+          "_description_": null
+        },
+        {
+          "category": "connectivity",
+          "title": [
+            "GPS",
+            "Cellular (opzionale)",
+            "Wi‑Fi 4",
+            "Bluetooth 5.3",
+            "NFC"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "sensors",
+          "title": "Sensori",
+          "_description_": null
+        },
+        {
+          "category": "sensors",
+          "title": [
+            "Cardiofrequenzimetro ottico 2ª gen",
+            "Bussola",
+            "Altimetro sempre attivo",
+            "Accelerometro high‑g",
+            "Giroscopio ad alta gamma dinamica",
+            "Sensore luce ambientale"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "healthFeatures",
+          "title": "Funzionalità Salute",
+          "_description_": null
+        },
+        {
+          "category": "healthFeatures",
+          "title": [
+            "Notifiche frequenza cardiaca",
+            "Rilevamento cadute",
+            "Rilevamento incidenti",
+            "Monitoraggio sonno"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": "Fino a 18 ore",
+          "type": "text"
+        },
+        {
+          "category": "charging",
+          "title": "Ricarica",
+          "description": "Fino all’80% in circa 1,5 ore",
+          "type": "text"
+        },
+        {
+          "category": "waterResistance",
+          "title": "Resistenza all'acqua",
+          "description": "Fino a 50 m (swimproof)",
+          "type": "text"
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "40 mm o 44 mm, spessore 10,7 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "26,4–33 g a seconda del modello",
+          "_type_": ["text"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2022,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/811DQxkyZaL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71SSJrXlH-L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Galaxy",
+          "images": [
+            "https://m.media-amazon.com/images/I/617AgYZYZ5L._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61Wr1CQCNIL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Denim",
+          "images": [
+            "https://m.media-amazon.com/images/I/61X+VUhO-LL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61gi5vSTY4L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Black",
+          "images": [
+            "https://m.media-amazon.com/images/I/61k5J03pZtL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/615huQs6+HL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "AirPods",
+      "name": "AirPods 4",
+      "shortDescription": "Nuova generazione di AirPods con miglioramenti audio, comfort e autonomia.",
+      "price": 159,
+      "currency": "EUR",
+      "colors": ["White"],
+      "specs": [
+        {
+          "category": "driver",
+          "title": "Driver",
+          "description": "Driver ad alta escursione progettato da Apple",
+          "type": "text"
+        },
+        {
+          "category": "amplifier",
+          "title": "Amplificatore",
+          "description": "Amplificatore custom ad alta gamma dinamica",
+          "type": "text"
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "Apple H2 negli auricolari",
+          "type": "text"
+        },
+        {
+          "category": "audioFeatures",
+          "title": "Funzionalità Audio",
+          "description": [
+            "Audio spaziale personalizzato con rilevamento dinamico della testa",
+            "Equalizzazione adattiva",
+            "Isolamento vocale",
+            "Audio adattivo (modello ANC)",
+            "Modalità Trasparenza (modello ANC)",
+            "Rilevamento conversazione (modello ANC)"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "microphones",
+          "title": "Microfoni",
+          "description": [
+            "Due microfoni beamforming",
+            "Microfono rivolto verso l’interno"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "sensors",
+          "title": "Sensori",
+          "description": [
+            "Sensore ottico in‑ear",
+            "Accelerometro per il rilevamento del movimento",
+            "Accelerometro per il rilevamento vocale",
+            "Sensore di pressione"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Connettività",
+          "description": ["Bluetooth 5.3"],
+          "_type_": ["array"]
+        },
+        {
+          "category": "resistance",
+          "title": "Resistenza",
+          "description": "IP54 (resistente a polvere, sudore e acqua)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": "Fino a 6 ore di ascolto (5 ore con ANC attivo), fino a 30 ore con custodia",
+          "_type_": ["text"]
+        },
+        {
+          "category": "charging",
+          "title": "Ricarica",
+          "description": "Custodia USB‑C con altoparlante integrato e supporto rete Dov’è, ricarica wireless MagSafe/Qi",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": [
+            "Auricolare: 30,2 × 18,3 × 18,1 mm, 4,3 g",
+            "Custodia: 46,2 × 50,1 × 21,2 mm, 32,3–34,7 g"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2025,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/61DvMw16ITL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51MlTIMDdsL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "category": "AirPods",
+      "name": "AirPods Pro 2",
+      "shortDescription": "Cancellazione attiva del rumore, audio spaziale e adattamento avanzato.",
+      "price": 249,
+      "currency": "EUR",
+      "colors": ["White"],
+      "specs": [
+        {
+          "category": "driver",
+          "title": "Driver",
+          "description": "Driver ad alta escursione progettato da Apple",
+          "type": "text"
+        },
+        {
+          "category": "amplifier",
+          "title": "Amplificatore",
+          "description": "Amplificatore custom ad alta gamma dinamica",
+          "type": "text"
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "Apple H2 negli auricolari, Apple U1 nella custodia",
+          "type": "text"
+        },
+        {
+          "category": "audioFeatures",
+          "title": "Funzionalità Audio",
+          "description": [
+            "Cancellazione attiva del rumore",
+            "Audio adattivo",
+            "Modalità Trasparenza",
+            "Rilevamento conversazione",
+            "Audio spaziale personalizzato con rilevamento dinamico della testa",
+            "Equalizzazione adattiva"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "microphones",
+          "title": "Microfoni",
+          "description": [
+            "Due microfoni beamforming",
+            "Microfono rivolto verso l’interno"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "sensors",
+          "title": "Sensori",
+          "description": [
+            "Sensore di rilevamento della pelle",
+            "Accelerometro per il rilevamento del movimento",
+            "Accelerometro per il rilevamento vocale",
+            "Sensore di pressione"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Connettività",
+          "description": ["Bluetooth 5.3"],
+          "_type_": ["array"]
+        },
+        {
+          "category": "resistance",
+          "title": "Resistenza",
+          "description": "IP54 (auricolari e custodia)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": "Fino a 6 ore di ascolto (5,5 ore con audio spaziale attivo), fino a 30 ore con custodia",
+          "_type_": ["text"]
+        },
+        {
+          "category": "charging",
+          "title": "Ricarica",
+          "description": "Custodia MagSafe USB‑C con altoparlante e anello per laccetto, ricarica wireless MagSafe/Qi e Apple Watch",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": [
+            "Auricolare: 30,9 × 21,8 × 24,0 mm, 5,3 g",
+            "Custodia: 45,2 × 60,6 × 21,7 mm, 50,8 g"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2022,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/51UGREJjuJL._AC_SY450_.jpg",
+            "https://m.media-amazon.com/images/I/61o3zNIT5tL._AC_SY450_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "category": "AirPods",
+      "name": "AirPods Max",
+      "shortDescription": "Cuffie over-ear premium con audio di riferimento e materiali di qualità.",
+      "price": 629,
+      "currency": "EUR",
+      "colors": [
+        "Orange",
+        "Blue",
+        "Galaxy",
+        "Space Gray",
+        "Midnight",
+        "Dark Purple"
+      ],
+      "specs": [
+        {
+          "category": "driver",
+          "title": "Driver",
+          "description": "Driver dinamico progettato da Apple da 40 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "chip",
+          "title": "Chip",
+          "description": "Apple H1 (uno per padiglione)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "audioFeatures",
+          "title": "Funzionalità Audio",
+          "_description_": null
+        },
+        {
+          "category": "audioFeatures",
+          "title": [
+            "Cancellazione attiva del rumore",
+            "Modalità Trasparenza",
+            "Audio spaziale personalizzato con rilevamento dinamico della testa",
+            "Equalizzazione adattiva"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "microphones",
+          "title": "Microfoni",
+          "_description_": null
+        },
+        {
+          "category": "microphones",
+          "title": [
+            "8 microfoni per la cancellazione attiva del rumore",
+            "3 microfoni per il rilevamento della voce (2 condivisi con ANC)"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "sensors",
+          "title": "Sensori",
+          "_description_": null
+        },
+        {
+          "category": "sensors",
+          "title": [
+            "Sensore ottico",
+            "Sensore di posizione",
+            "Sensore di rilevamento custodia",
+            "Accelerometro",
+            "Giroscopio (padiglione sinistro)"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "controls",
+          "title": "Controlli",
+          "_description_": null
+        },
+        {
+          "category": "controls",
+          "title": [
+            "Digital Crown per volume, riproduzione, chiamate e Siri",
+            "Tasto per controllo del rumore"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Connettività",
+          "_description_": null
+        },
+        {
+          "category": "connectivity",
+          "title": ["Bluetooth 5.0"],
+          "_type_": ["array"]
+        },
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": "Fino a 20 ore di ascolto con ANC e audio spaziale attivi",
+          "_type_": ["text"]
+        },
+        {
+          "category": "charging",
+          "title": "Ricarica",
+          "description": "Ricarica via USB‑C, 1,5 ore di ascolto con 5 minuti di ricarica",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "168,6 × 83,4 × 187,3 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "386,2 g",
+          "_type_": ["text"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2020,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "Orange",
+          "images": [
+            "https://m.media-amazon.com/images/I/71XYMf-NIJL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71ErS9SZ91L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Blue",
+          "images": [
+            "https://m.media-amazon.com/images/I/71MNXchmJjL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71DO6fXPITL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Galaxy",
+          "images": [
+            "https://m.media-amazon.com/images/I/71PWOZZgarL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/7169EFTtdEL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Space Gray",
+          "images": [
+            "https://m.media-amazon.com/images/I/61zQPZYeTEL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/61B6d8YXx7L._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Midnight",
+          "images": [
+            "https://m.media-amazon.com/images/I/71pGbe01SQL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/719bzLI0pYL._AC_SX679_.jpg"
+          ]
+        },
+        {
+          "color": "Dark Purple",
+          "images": [
+            "https://m.media-amazon.com/images/I/719qgpYYmtL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71eUh1UZjfL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Accessories",
+      "name": "Alimentatore USB‑C",
+      "shortDescription": "Alimentatore USB‑C da 20W compatto per ricarica rapida di iPhone e accessori.",
+      "price": 29,
+      "currency": "EUR",
+      "colors": ["White"],
+      "specs": [
+        {
+          "category": "output",
+          "title": "Output",
+          "description": "20W USB‑C Power Delivery",
+          "_type_": ["text"]
+        },
+        {
+          "category": "compatibility",
+          "title": "Compatibilità",
+          "description": [
+            "iPhone 8 o successivi (ricarica rapida fino al 50% in circa 30 minuti)",
+            "iPad Pro",
+            "iPad Air",
+            "iPad mini",
+            "iPad (modelli recenti)",
+            "AirPods con custodia di ricarica MagSafe o wireless",
+            "Altri dispositivi USB‑C"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "41 × 42 × 27 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "60 g",
+          "_type_": ["text"]
+        },
+        {
+          "category": "input",
+          "title": "Input",
+          "description": "100–240V~ 50/60Hz 0,5A",
+          "_type_": ["text"]
+        },
+        {
+          "category": "cableIncluded",
+          "title": "Cavo incluso",
+          "description": false,
+          "_type_": ["boolean"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2023,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/513NWVpZwQL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51ibX4oBqlL._AC_SX679_.jpg",
+            "https://m.media-amazon.com/images/I/51inZhXv+7L._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Accessories",
+      "name": "Apple Pencil",
+      "shortDescription": "Penna stilizzata per iPad con latenza ridotta e ricarica USB‑C.",
+      "price": 129,
+      "currency": "EUR",
+      "colors": ["White"],
+      "specs": [
+        {
+          "category": "compatibility",
+          "title": "Compatibilità",
+          "_description_": null
+        },
+        {
+          "category": "compatibility",
+          "title": [
+            "iPad Pro 13\" (M4)",
+            "iPad Pro 11\" (M4)",
+            "iPad Pro 12,9\" (3ª gen o successiva)",
+            "iPad Pro 11\" (1ª gen o successiva)",
+            "iPad Air 13\" (M2)",
+            "iPad Air 11\" (M2)",
+            "iPad Air (4ª e 5ª gen)",
+            "iPad (10ª gen)",
+            "iPad mini (6ª gen)"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "connection",
+          "title": "Connessione",
+          "description": "USB‑C per ricarica e abbinamento",
+          "_type_": ["text"]
+        },
+        {
+          "category": "features",
+          "title": "Funzionalità",
+          "_description_": null
+        },
+        {
+          "category": "features",
+          "title": [
+            "Precisione pixel‑perfect",
+            "Bassa latenza",
+            "Sensibilità all’inclinazione",
+            "Funzione hover (solo su iPad compatibili)",
+            "Aggancio magnetico"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "length",
+          "title": "Lunghezza",
+          "description": "155 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "diameter",
+          "title": "Diametro",
+          "description": "8,9 mm",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "20,5 g",
+          "_type_": ["text"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2023,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/41s9DmRSgcL._AC_SX466_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Accessories",
+      "name": "Cavo USB‑C",
+      "shortDescription": "Cavo USB‑C ad alte prestazioni pensato per ricarica rapida e trasferimento dati.",
+      "price": 49,
+      "currency": "EUR",
+      "colors": ["White"],
+      "specs": [
+        {
+          "category": "length",
+          "title": "Lunghezza",
+          "description": "2 m",
+          "_type_": ["text"]
+        },
+        {
+          "category": "maxPower",
+          "title": "Potenza massima",
+          "description": "240W (con alimentatori compatibili)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "connector",
+          "title": "Connettore",
+          "description": "USB‑C to USB‑C",
+          "_type_": ["text"]
+        },
+        {
+          "category": "material",
+          "title": "Materiale",
+          "description": "Tessuto intrecciato per maggiore resistenza",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dataTransfer",
+          "title": "Trasferimento dati",
+          "description": "USB 2 (fino a 480 Mbps)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "compatibility",
+          "title": "Compatibilità",
+          "description": [
+            "Tutti i dispositivi USB‑C, inclusi MacBook, iPad, iPhone 15 e successivi"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "cableIncluded",
+          "title": "Cavo incluso",
+          "description": true,
+          "_type_": ["boolean"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2024,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/61p4sgpkqKL._AC_SX679_.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "category": "Accessories",
+      "name": "AirTag",
+      "shortDescription": "Dispositivo di localizzazione compatto per trovare oggetti con l'app Dov'è.",
+      "price": 35,
+      "currency": "EUR",
+      "colors": ["White"],
+      "specs": [
+        {
+          "category": "battery",
+          "title": "Batteria",
+          "description": "CR2032 sostituibile dall’utente",
+          "_type_": ["text"]
+        },
+        {
+          "category": "connectivity",
+          "title": "Connettività",
+          "description": [
+            "Bluetooth LE",
+            "Ultra Wideband (chip U1) per Posizione precisa",
+            "NFC per modalità Smarrito"
+          ],
+          "_type_": ["array"]
+        },
+        {
+          "category": "resistance",
+          "title": "Resistenza",
+          "description": "IP67 (fino a 1 m per 30 minuti)",
+          "_type_": ["text"]
+        },
+        {
+          "category": "speaker",
+          "title": "Altoparlante",
+          "description": "Integrato per avvisi sonori",
+          "_type_": ["text"]
+        },
+        {
+          "category": "dimensions",
+          "title": "Dimensioni",
+          "description": "31,9 mm diametro × 8 mm spessore",
+          "_type_": ["text"]
+        },
+        {
+          "category": "weight",
+          "title": "Peso",
+          "description": "11 g",
+          "_type_": ["text"]
+        },
+        {
+          "category": "compatibility",
+          "title": "Compatibilità",
+          "description": "iPhone e iPad con iOS/iPadOS 14.5 o successivo",
+          "_type_": ["text"]
+        },
+        {
+          "category": "releaseYear",
+          "title": "Anno di rilascio",
+          "description": 2021,
+          "_type_": ["number"]
+        }
+      ],
+      "imagesForAnyColor": [
+        {
+          "color": "White",
+          "images": [
+            "https://m.media-amazon.com/images/I/71L5lSfJIPS._AC_SX569_.jpg",
+            "https://m.media-amazon.com/images/I/61qL1yrQJiS._AC_SX569_.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

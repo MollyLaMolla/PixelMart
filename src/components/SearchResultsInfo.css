@@ -1,0 +1,111 @@
+.search-results-info {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--color-text-dim);
+  margin-bottom: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  max-width: fit-content;
+  align-self: flex-start;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  .search-results-info {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+}
+
+.search-results-info .search-results-text {
+  display: flex;
+  white-space: nowrap;
+}
+
+.search-results-info .results-count {
+  font-weight: 600;
+  color: var(--color-text);
+  margin-right: 0.3rem;
+}
+
+.search-results-info .for-query {
+  color: var(--color-text-dim);
+}
+
+.search-results-info .query-text {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.clear-search-btn {
+  opacity: 0;
+  pointer-events: none;
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  color: var(--color-text-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.2s ease 0.15s;
+  position: absolute;
+  right: -30px; /* Inizialmente fuori dal box */
+}
+
+.search-clear-icon {
+  font-size: 16px;
+  transition: transform 0.15s ease;
+}
+
+.search-results-info:hover {
+  padding-right: 48px;
+}
+
+.search-results-info:hover .clear-search-btn {
+  opacity: 1;
+  pointer-events: auto;
+  right: 16px; /* Posizione finale dentro il box */
+}
+
+.clear-search-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--color-text);
+}
+
+.clear-search-btn:hover .search-clear-icon {
+  transform: rotate(90deg);
+}
+
+@media (prefers-color-scheme: dark) {
+  .clear-search-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media (max-width: 480px) {
+  .search-results-info {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    justify-content: start;
+  }
+
+  .clear-search-btn {
+    opacity: 1;
+    pointer-events: auto;
+    right: 16px; /* Sempre visibile */
+    transition: none; /* Nessuna animazione su mobile */
+  }
+
+  /* Su mobile il box non ha bisogno di espandersi perché la X è già visibile */
+  .search-results-info:hover {
+    padding-right: 40px !important;
+  }
+}

@@ -1,0 +1,77 @@
+/* Page-level styles for /store - dark theme */
+:root {
+  --bg: #0b1220; /* deep slate */
+  --panel: #071024;
+  --muted: #94a3b8;
+  --text: #e6eefc;
+  --accent: #0071e3;
+}
+
+.store-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.store-page {
+  background: var(--bg);
+  min-height: calc(100dvh - 56px);
+  padding: 5rem 0 8rem 0;
+  color: var(--text);
+}
+
+@media (max-width: 600px) {
+  .store-page {
+    padding: 3rem 0;
+  }
+}
+
+.store-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.store-grid > * {
+  display: flex;
+}
+
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 360px);
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1200px) {
+  .store-grid {
+    grid-template-columns: repeat(auto-fill, 300px);
+  }
+  .product-tagline {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .store-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .specs-root {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .store-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

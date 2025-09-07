@@ -1,0 +1,245 @@
+/* Footer styles */
+
+.ftr-container {
+  background-color: var(--color-bg-alt);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  padding: 64px 0 32px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .ftr-container {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+.ftr-content {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.ftr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  margin-bottom: 64px;
+}
+
+.ftr-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.ftr-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+
+.ftr-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ftr-link {
+  color: var(--color-text-dim);
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  margin-bottom: 12px;
+  transition: color 0.15s var(--ease);
+}
+
+.ftr-link:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.ftr-newsletter-section {
+  width: 100%;
+  margin-bottom: 64px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ftr-newsletter {
+  max-width: 800px;
+}
+
+.ftr-newsletter-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-text-dim);
+  margin-bottom: 16px;
+}
+
+.ftr-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ftr-input {
+  flex: 1;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: var(--radius-xs);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  min-width: 120px;
+  outline: none;
+  transition: all 0.15s var(--ease);
+}
+
+.ftr-input:focus {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-focus);
+}
+
+@media (prefers-color-scheme: dark) {
+  .ftr-input {
+    background-color: rgba(255, 255, 255, 0.07);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+.ftr-submit {
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: var(--radius-xs);
+  padding: 0 16px;
+  font-size: 13px;
+  height: 36px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s var(--ease);
+}
+
+.ftr-submit:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.ftr-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .ftr-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+.ftr-legal {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ftr-copyright {
+  color: var(--color-text-dim);
+  font-size: 12px;
+  margin: 0;
+}
+
+.ftr-legal-links {
+  display: flex;
+  gap: 16px;
+}
+
+.ftr-legal-link {
+  color: var(--color-text-dim);
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.15s var(--ease);
+}
+
+.ftr-legal-link:hover {
+  color: var(--color-accent);
+}
+
+.ftr-social {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.ftr-social-link {
+  color: var(--color-text-dim);
+  transition: color 0.15s var(--ease);
+}
+
+.ftr-social-link:hover {
+  color: var(--color-accent);
+}
+
+/* Back to top button */
+.ftr-back-to-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: var(--radius-xs);
+  margin: 0 auto 48px;
+  transition: background-color 0.15s var(--ease);
+}
+
+.ftr-back-to-top:hover {
+  background-color: rgba(0, 113, 227, 0.1);
+}
+
+@media (max-width: 960px) {
+  .ftr-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  .ftr-newsletter {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .ftr-bottom {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .ftr-social {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 540px) {
+  .ftr-legal-links {
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+
+  .ftr-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .ftr-grid {
+    grid-template-columns: 1fr;
+  }
+}
