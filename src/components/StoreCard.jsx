@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./StoreCard.css";
 
 export default function StoreCard({ product }) {
@@ -24,7 +25,7 @@ export default function StoreCard({ product }) {
   return (
     <div className="store-card" aria-labelledby={`product-${id}-title`}>
       <div className="store-card-media">
-        <a href={`/product/${id}`} className="store-card-link">
+  <Link to={`/product/${id}`} className="store-card-link">
           {activeImage ? (
             // eslint-disable-next-line jsx-a11y/img-redundant-alt
             <>
@@ -45,7 +46,7 @@ export default function StoreCard({ product }) {
           ) : (
             <div className="no-image">No image</div>
           )}
-        </a>
+  </Link>
       </div>
 
       <div className="store-card-body">
@@ -108,9 +109,9 @@ export default function StoreCard({ product }) {
           </div>
 
           <div className="actions">
-            <a href={`/product/${id}`} className="store-card-link">
+            <Link to={`/product/${id}`} className="store-card-link">
               <button className="btn-buy">Acquista</button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
