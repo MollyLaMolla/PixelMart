@@ -6,12 +6,16 @@ export function ProductCard({ product }) {
   // Stato locale per tracciare l'hover sulla card
   const [isHovered, setIsHovered] = useState(false);
   const cardRef = useRef(null);
+  const imgRef = useRef(null);
+  const [shouldLoadImage, setShouldLoadImage] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
     if (!cardRef.current) return;
 
+    // Animazione di entrata con GSAP
     gsap.set(cardRef.current, {
       opacity: 0,
       scale: 0.9,
@@ -35,12 +39,33 @@ export function ProductCard({ product }) {
       },
     });
 
+    // Lazy loading con IntersectionObserver
+    if (imgRef.current && !shouldLoadImage) {
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                setShouldLoadImage(true);
+                observer.disconnect();
+              }
+            });
+          },
+          { rootMargin: "200px 0px" }
+        );
+        observer.observe(imgRef.current);
+      } else {
+        // Fallback: carica subito
+        setShouldLoadImage(true);
+      }
+    }
+
     return () => {
       if (animation.scrollTrigger) {
         animation.scrollTrigger.kill();
       }
     };
-  }, []);
+  }, [shouldLoadImage]);
 
   return (
     <a
@@ -77,11 +102,19 @@ export function ProductCard({ product }) {
           className={`product-image-container ${product.tailwindImgDivClasses}`}
         >
           <img
-            src={product.image}
+            ref={imgRef}
+            src={shouldLoadImage ? product.image : undefined}
+            data-src={product.image}
             alt={product.name}
+            loading="lazy"
+            onLoad={() => setImageLoaded(true)}
             className={`product-image ${product.tailwindImgClasses} ${
               isHovered ? `${product.imgHover}` : ""
             }`}
+            style={{
+              opacity: imageLoaded ? 1 : 0,
+              transition: "opacity .4s ease",
+            }}
           />
         </div>
       ) : (
