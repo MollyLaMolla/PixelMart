@@ -1,4 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"; // BrowserRouter per URL puliti
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useNavigationType,
+  useLocation,
+} from "react-router-dom"; // BrowserRouter per URL puliti
+import { useEffect, useRef } from "react";
 import { NavBar } from "./components/NavBar.jsx";
 import { Hero } from "./components/Hero.jsx";
 import { FeaturedProducts } from "./components/FeaturedProducts.jsx";
@@ -22,6 +29,7 @@ export function App() {
         v7_relativeSplatPath: true,
       }}
     >
+      <ScrollManager />
       <NavBar />
       <Routes>
         <Route
@@ -40,4 +48,23 @@ export function App() {
       <Footer />
     </BrowserRouter>
   );
+}
+
+// Gestisce lo scroll: scrollTop=0 solo per navigazioni PUSH (click link / buttons)
+function ScrollManager() {
+  const action = useNavigationType(); // POP | PUSH | REPLACE
+  const location = useLocation();
+  const prevPathRef = useRef(location.pathname);
+
+  useEffect(() => {
+    const prevPath = prevPathRef.current;
+    const newPath = location.pathname;
+    // Scroll solo se: nuova navigazione PUSH (click link / navigate) e pathname diverso
+    // Questo evita scroll reset su cambi di query string (?cat= / ?search=) e su POP (back/forward)
+    if (action === "PUSH" && newPath !== prevPath) {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    }
+    prevPathRef.current = newPath;
+  }, [location.pathname, action]);
+  return null;
 }
