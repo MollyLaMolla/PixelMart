@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixelMart</title>
+    <script>
+      /*
+        GitHub Pages SPA redirect:
+        Se l'utente refresha /PixelMart.Deploy/store (o qualunque rotta client),
+        GitHub Pages serve 404.html. Questo script reindirizza a /PixelMart.Deploy/ e
+        preserva path & query in sessionStorage per permettere a React Router di
+        riposizionarsi una volta caricata l'app.
+      */
+      (function() {
+        var path = window.location.pathname.replace(/\/PixelMart\.Deploy\//, '/');
+        var full = path + window.location.search + window.location.hash;
+        try { sessionStorage.setItem('__spa_redirect', full); } catch(e) {}
+        // Reindirizza alla root dell'app
+        window.location.replace('/PixelMart.Deploy/');
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
