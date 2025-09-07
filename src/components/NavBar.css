@@ -500,6 +500,7 @@
     pointer-events: auto;
     display: flex;
     animation: menuSlideIn 0.5s var(--ease) forwards;
+    z-index: 120;
   }
 
   @keyframes menuSlideIn {

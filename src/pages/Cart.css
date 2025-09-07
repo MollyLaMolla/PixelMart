@@ -194,7 +194,7 @@
   max-width: 360px;
   min-width: 240px;
   padding: 0;
-  z-index: 100;
+  z-index: 20;
 }
 
 .cart-summary-toggle {
