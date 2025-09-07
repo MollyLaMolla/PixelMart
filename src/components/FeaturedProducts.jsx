@@ -24,6 +24,7 @@ export function FeaturedProducts() {
       imgHover: "translate-y-[-8px]",
       showProductFooter: false,
       isFullWidth: true, // Card a larghezza piena
+      backgroundClass: "iphone-image",
     },
     {
       id: 2,
@@ -37,6 +38,7 @@ export function FeaturedProducts() {
       imgHover: "translate-y-[-8px] scale-110",
       showProductFooter: true,
       link: "/store?cat=Mac",
+      backgroundClass: "macbook-image",
     },
     {
       id: 3,
@@ -50,6 +52,7 @@ export function FeaturedProducts() {
       imgHover: "translate-y-[-8px] scale-110",
       showProductFooter: true,
       link: "/store?cat=iPad",
+      backgroundClass: "ipad-image",
     },
     {
       id: 4,
@@ -63,6 +66,7 @@ export function FeaturedProducts() {
       imgHover: "translate-y-[-8px] scale-105",
       showProductFooter: true,
       link: "/store?cat=Apple Watch",
+      backgroundClass: "watch-image",
     },
     {
       id: 5,
@@ -76,6 +80,7 @@ export function FeaturedProducts() {
       imgHover: "translate-y-[-8px] scale-[105%]",
       showProductFooter: true,
       link: "/store?cat=AirPods",
+      backgroundClass: "airpods-image",
     },
   ];
 

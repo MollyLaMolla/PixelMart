@@ -104,7 +104,14 @@ export function ProductCard({ product }) {
         )}
       </div>
 
-      {!product.isFullWidth ? (
+      {product.backgroundClass ? (
+        <figure
+          className={`product-image-placeholder ${product.backgroundClass} ${
+            isHovered ? product.imgHover : ""
+          }`}
+          aria-label={product.name}
+        />
+      ) : !product.isFullWidth ? (
         <div
           className={`product-image-container ${product.tailwindImgDivClasses}`}
         >
@@ -118,13 +125,11 @@ export function ProductCard({ product }) {
             className={`product-image ${product.tailwindImgClasses} ${
               isHovered ? `${product.imgHover}` : ""
             }`}
-            style={{
-              opacity: imageLoaded ? 1 : 0,
-            }}
+            style={{ opacity: imageLoaded ? 1 : 0 }}
           />
         </div>
       ) : (
-        <figure className="product-image-placeholder iphone-image"></figure>
+        <figure className="product-image-placeholder iphone-image" />
       )}
 
       {product.showProductFooter && (
