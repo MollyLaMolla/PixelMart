@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Link } from "react-router-dom";
 
 export function ProductCard({ product }) {
   // Stato locale per tracciare l'hover sulla card
@@ -75,8 +76,8 @@ export function ProductCard({ product }) {
   }, [shouldLoadImage]);
 
   return (
-    <a
-      href={product.link}
+    <Link
+      to={product.link}
       ref={cardRef}
       className={`product-card ${product.color}`}
       data-full-width={product.isFullWidth}
@@ -139,6 +140,6 @@ export function ProductCard({ product }) {
           </span>
         </div>
       )}
-    </a>
+    </Link>
   );
 }
