@@ -120,33 +120,29 @@ export function NavBar() {
     "Accessories",
   ];
 
-  function getActiveNav(windowLocation) {
-    const params = new URLSearchParams(windowLocation.search);
+  // Determina il link attivo (compatibile con basename GitHub Pages)
+  function getActiveNav(loc) {
+    if (!loc) return "";
+    const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+    let pathname = loc.pathname || "/";
+    // Nel caso raro in cui la history non abbia rimosso il basename
+    if (base && pathname.startsWith(base)) {
+      pathname = pathname.slice(base.length) || "/";
+    }
+    const params = new URLSearchParams(loc.search || "");
     const cat = params.get("cat");
-    // Home
-    if (windowLocation.pathname === "/") {
-      return "Home";
+    if (pathname === "/") return "Home";
+    if (pathname === "/store" && !cat) return "Store";
+    if (pathname === "/store" && cat) {
+      return categoryLinks.includes(cat) ? cat : "Store";
     }
-    // Store senza categoria
-    if (windowLocation.pathname === "/store" && !cat) {
-      return "Store";
-    }
-    // Store con categoria
-    if (windowLocation.pathname === "/store" && cat) {
-      if (categoryLinks.includes(cat)) {
-        return cat;
-      } else {
-        // Se la categoria non è valida, fallback su Store
-        return "Store";
-      }
-    }
-    // Fallback: nessun active
     return "";
   }
 
   // Sincronizza il selected della NavBar con la query string
   useEffect(() => {
-    setActive(getActiveNav(window.location));
+    // Usa l'oggetto location di React Router (già privo del basename) invece di window.location
+    setActive(getActiveNav(location));
   }, [location, filtersAppliedCount]);
 
   useEffect(() => {
