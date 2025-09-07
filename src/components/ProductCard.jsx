@@ -40,7 +40,7 @@ export function ProductCard({ product }) {
     });
 
     // Lazy loading con IntersectionObserver
-    if (imgRef.current && !shouldLoadImage) {
+    if (cardRef.current && !shouldLoadImage) {
       if ("IntersectionObserver" in window) {
         const observer = new IntersectionObserver(
           (entries) => {
@@ -51,11 +51,18 @@ export function ProductCard({ product }) {
               }
             });
           },
-          { rootMargin: "200px 0px" }
+          { rootMargin: "200px 0px", threshold: 0.05 }
         );
-        observer.observe(imgRef.current);
+        observer.observe(cardRef.current);
+        // Controllo immediato nel caso la card sia già visibile
+        if (
+          cardRef.current.getBoundingClientRect().top <
+          window.innerHeight + 200
+        ) {
+          setShouldLoadImage(true);
+          observer.disconnect();
+        }
       } else {
-        // Fallback: carica subito
         setShouldLoadImage(true);
       }
     }
@@ -113,7 +120,6 @@ export function ProductCard({ product }) {
             }`}
             style={{
               opacity: imageLoaded ? 1 : 0,
-              transition: "opacity .4s ease",
             }}
           />
         </div>
