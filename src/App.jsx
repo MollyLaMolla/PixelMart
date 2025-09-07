@@ -11,7 +11,7 @@ import "./index.css";
 
 export function App() {
   return (
-    <BrowserRouter
+  <BrowserRouter basename="/PixelMart.Deploy"
       future={{
         v7_startTransition: true,
         v7_relativeSplatPath: true,
