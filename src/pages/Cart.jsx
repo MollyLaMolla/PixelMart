@@ -86,7 +86,8 @@ function saveCart(items) {
 }
 
 export default function Cart() {
-  const [items, setItems] = useState([]);
+  // Inizializza subito dal localStorage per evitare un primo render vuoto che poi salva []
+  const [items, setItems] = useState(() => loadCart());
   const navigate = useNavigate();
   const [isMobile, setIsMobile] = useState(false);
   const [summaryOpen, setSummaryOpen] = useState(true);
@@ -102,15 +103,15 @@ export default function Cart() {
     return () => mq.removeEventListener("change", apply);
   }, []);
 
+  // Salva solo dopo ogni modifica (items è già inizializzato); evita di svuotare il carrello all'accesso
   useEffect(() => {
-    setItems(loadCart());
-  }, []);
+    saveCart(items);
+  }, [items]);
 
   const updateItem = useCallback((idx, patch) => {
     setItems((prev) => {
       const clone = [...prev];
       clone[idx] = { ...clone[idx], ...patch };
-      saveCart(clone);
       return clone;
     });
   }, []);
@@ -118,13 +119,11 @@ export default function Cart() {
   const removeItem = (idx) => {
     setItems((prev) => {
       const clone = prev.filter((_, i) => i !== idx);
-      saveCart(clone);
       return clone;
     });
   };
 
   const clearCart = () => {
-    saveCart([]);
     setItems([]);
   };
   const formatPrice = (price) =>
@@ -201,13 +200,25 @@ export default function Cart() {
                     <div className="cart-item-left">
                       <div className="cart-thumb">
                         {img ? (
-                          <img src={img} alt={product.name} loading="lazy" />
+                          <Link
+                            to={`/product/${product.id}`}
+                            aria-label={`Vai alla pagina di ${product.name}`}
+                          >
+                            <img src={img} alt={product.name} loading="lazy" />
+                          </Link>
                         ) : (
                           <div className="cart-thumb-fallback" />
                         )}
                       </div>
                       <div className="cart-item-info">
-                        <h2 className="cart-item-name">{product.name}</h2>
+                        <h2 className="cart-item-name">
+                          <Link
+                            to={`/product/${product.id}`}
+                            className="cart-item-link"
+                          >
+                            {product.name}
+                          </Link>
+                        </h2>
                         <div className="cart-item-options">
                           {colors.length > 0 && (
                             <div className="cart-opt">

@@ -1,4 +1,6 @@
 // Intro hero section with large typography and subtle gradient background.
+import { Link } from "react-router-dom";
+
 export function Hero() {
   return (
     <section className="hero" aria-labelledby="hero-title">
@@ -13,12 +15,12 @@ export function Hero() {
           prodotti, confronta i modelli e lasciati ispirare dal design.
         </p>
         <div className="hero-ctas">
-          <a href="/store" className="btn primary">
+          <Link to="/store" className="btn primary">
             Inizia a esplorare
-          </a>
-          <a href="/store" className="btn ghost">
+          </Link>
+          <Link to="/store" className="btn ghost">
             Scopri le offerte
-          </a>
+          </Link>
         </div>
         <div className="hero-hint">
           PixelMart – Il tuo ecommerce tecnologico di fiducia

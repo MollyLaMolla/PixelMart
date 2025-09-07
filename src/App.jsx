@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"; // BrowserRouter per URL puliti
 import { NavBar } from "./components/NavBar.jsx";
 import { Hero } from "./components/Hero.jsx";
 import { FeaturedProducts } from "./components/FeaturedProducts.jsx";
