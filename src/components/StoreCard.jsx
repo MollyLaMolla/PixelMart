@@ -25,7 +25,7 @@ export default function StoreCard({ product }) {
   return (
     <div className="store-card" aria-labelledby={`product-${id}-title`}>
       <div className="store-card-media">
-  <Link to={`/product/${id}`} className="store-card-link">
+        <Link to={`/product/${id}`} className="store-card-link">
           {activeImage ? (
             // eslint-disable-next-line jsx-a11y/img-redundant-alt
             <>
@@ -46,7 +46,7 @@ export default function StoreCard({ product }) {
           ) : (
             <div className="no-image">No image</div>
           )}
-  </Link>
+        </Link>
       </div>
 
       <div className="store-card-body">

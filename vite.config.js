@@ -6,7 +6,7 @@ import autoprefixer from "autoprefixer";
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
   // Base corretta per GitHub Pages: sostituire con il nome del repo
-  base: mode === 'production' ? '/PixelMart.Deploy/' : '/',
+  base: mode === "production" ? "/PixelMart.Deploy/" : "/",
   plugins: [react()],
   build: {
     // Lascia gestire a Rollup/Vite l'auto-splitting per evitare problemi di ordine

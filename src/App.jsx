@@ -11,9 +11,12 @@ import "./index.css";
 
 export function App() {
   // In sviluppo nessun basename; in produzione usa quello derivato da Vite (es. /PixelMart.Deploy/)
-  const basename = import.meta.env.DEV ? undefined : import.meta.env.BASE_URL.replace(/\/$/, "");
+  const basename = import.meta.env.DEV
+    ? undefined
+    : import.meta.env.BASE_URL.replace(/\/$/, "");
   return (
-    <BrowserRouter basename={basename}
+    <BrowserRouter
+      basename={basename}
       future={{
         v7_startTransition: true,
         v7_relativeSplatPath: true,
