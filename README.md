@@ -81,7 +81,6 @@ Cart logic includes:
 
 **UI & Animations:**
 - Material UI (`@mui/material`, `@mui/icons-material`)  
-- Emotion (`@emotion/react`, `@emotion/styled`)  
 - GSAP  
 
 ---
