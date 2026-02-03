@@ -83,15 +83,6 @@ Cart logic includes:
 - Material UI (`@mui/material`, `@mui/icons-material`)  
 - Emotion (`@emotion/react`, `@emotion/styled`)  
 - GSAP  
-- React Feather Icons  
-
-**Routing:**
-- React Router DOM  
-
-**Tooling:**
-- ESLint  
-- PostCSS  
-- Autoprefixer  
 
 ---
 
