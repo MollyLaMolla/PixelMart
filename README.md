@@ -1,68 +1,83 @@
 # 🛒 PixelMart
 
 A fast, clean, fully client‑side e‑commerce experience.  
-Browse products, filter, sort, and manage your cart — all without a backend.
+Browse products, filter, compare, and manage your cart — all without a backend.
 
 ---
 
 ## 🧠 Overview
 
-PixelMart is a static online shop designed for speed and simplicity.  
-The entire experience runs client‑side, meaning:
+PixelMart is a static online shop focused on performance and user experience.  
+It’s hosted as a static page (via GitHub Pages) and runs entirely client‑side:
 
 - No server rendering  
 - No database  
 - No login or registration  
-- Instant loading on every visit  
+- Instant loading and smooth navigation  
 
-All user data (like the cart) is stored locally in the browser, making the site extremely fast and ideal for static hosting platforms such as GitHub Pages.
-
-The shop includes featured products, a full catalog, advanced filters, sorting options, and a persistent cart.
+All user data — like cart contents and filter preferences — is stored locally in the browser.  
+The site is designed with a clean, modern aesthetic and includes advanced filtering, product comparison, and a responsive cart system.
 
 ---
 
 ## 🔥 Features
 
-- 🏠 Home page with featured products  
-- 🛍️ Shop page with full product catalog  
-- 🔎 Search bar with live filtering  
-- 🎛️ Multi‑filter system:
+- 🏠 Homepage with featured products and promotional highlights  
+- 🛍️ Store page with full catalog and dynamic filters  
+- 🔎 Search bar with live suggestions and tag-based quick access  
+- 🎛️ Filter system:
   - Category  
-  - Price range  
   - Year  
   - Color  
-- ↕️ Sorting options:
-  - Year (asc/desc)  
-  - Price (asc/desc)  
-  - Name A→Z / Z→A  
-- 🛒 Cart with quantity management and total price  
+  - Price range slider  
+  - Sort by: year, price, name (A→Z / Z→A)  
+- 📱 Product cards with:
+  - Color previews  
+  - Price and monthly installment  
+  - “Buy” button  
+- 📦 Product detail pages with:
+  - Storage options  
+  - Protection plans  
+  - Delivery methods  
+  - Technical specifications  
+- 🛒 Cart with:
+  - Quantity control  
+  - Warranty selection  
+  - Total price calculation  
+  - Checkout summary  
 - 💾 Cart persistence via **localStorage**  
-- ⚡ Instant navigation thanks to static hosting  
+- ⚡ Instant navigation and zero loading delays  
 - 📱 Fully responsive layout  
-- ✨ Smooth animations and clean UI  
+- ✨ Smooth transitions and animations  
 
 ---
 
-## 📊 Client‑Side Logic Highlights
+## 📊 Product Options & Logic
 
-PixelMart handles all data on the client:
+Each product supports:
 
-- Products are stored as static JSON or JS modules  
-- Cart state is saved in `localStorage`  
-- Filters and sorting are computed in real time  
-- No backend calls, no API latency  
+- Multiple colors  
+- Storage capacities  
+- Protection plans (Standard, AppleCare+, Premium)  
+- Delivery methods (Standard, Express, Same-day)  
+- Dynamic pricing and monthly payment breakdown  
 
-This makes the experience extremely fast and reliable.
+Cart logic includes:
+
+- Quantity adjustment  
+- Real-time price updates  
+- Summary box with shipping and total  
+- Persistent cart across sessions
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Core:**
+**Frontend:**
 - React  
 - Vite  
-- HTML, CSS, JavaScript  
 - Tailwind CSS  
+- HTML, CSS, JavaScript  
 
 **UI & Animations:**
 - Material UI (`@mui/material`, `@mui/icons-material`)  
