@@ -83,9 +83,6 @@ This makes the experience extremely fast and reliable.
 ## 👊 Installation
 
 ```bash
-# Clone the project
-git clone https://github.com/your-username/pixelmart.git
-cd pixelmart
 
 # Install dependencies
 npm install
